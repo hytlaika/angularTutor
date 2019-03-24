@@ -1,0 +1,128 @@
+.firstDemo {
+  border: 3px solid green;
+  width: 1600px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.leftBlock {
+  display: inline-block;
+  align-items: center;
+  vertical-align: top;
+  border: 3px solid deeppink;
+  width: 12.5%;
+  height: 200px;
+}
+
+.leftBlock ul{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.leftBlock ul li{
+  vertical-align: middle;
+  list-style: black;
+  color: black;
+}
+
+.leftBlock ul li span {
+  color: deeppink;
+}
+
+.rightBlock {
+  display: inline-block;
+  /*border: 3px solid deeppink;*/
+  width: 87.5%;
+  height: 294px;
+}
+
+.rightUpper {
+  height: 25%;
+  border: 3px solid orange;
+}
+
+.rightMiddle {
+  height: 50%;
+  border: 3px solid orange;
+  background-color: lightgray;
+}
+
+.rightLower {
+  height: 25%;
+  border: 3px solid orange;
+}
+
+.rightMiddleCenter {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  color: maroon;
+}
+
+.rightLowerCenter {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+
+
+.bodyColor {
+  height: 926px;
+  width: 1614px;
+  background-color: limegreen;
+  position: relative;
+}
+
+.frame {
+  height: 350px;
+  width: 500px;
+  background-color: white;
+  position: absolute;
+  top: 263px;
+  left: 557px;
+}
+
+.placeUpper {
+  height: 60px;
+  width: 334px;
+  margin: 56px 83px 0 83px;
+}
+
+.placeMiddle {
+  height: 60px;
+  width: 334px;
+  margin: 22px 83px 0 83px;
+}
+
+.placeLower {
+  height: 60px;
+  width: 334px;
+  margin: 22px 83px 0 83px;
+}
+
+.placeLower button {
+  height: 100%;
+  width: 100%;
+  background-color: green;
+  color: whitesmoke;
+}
+
+input::-webkit-input-placeholder {
+  padding-left: 15px;
+  color: lightgrey;
+}
+
+.bottom {
+  height: 60px;
+  width: 334px;
+  margin: 8px 83px 0 83px;
+  text-align: center;
+}
+
+
+
